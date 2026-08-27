@@ -207,7 +207,10 @@
   @include relative-font-size(1.5);
 }
 
-
+.post-feature-image {
+  display: block;
+  max-height: 400px;
+}
 
 /**
  * Posts

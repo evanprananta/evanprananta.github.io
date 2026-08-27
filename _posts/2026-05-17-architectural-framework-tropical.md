@@ -4,6 +4,7 @@ title: "Architectural Framework for Tropical Climate Resilience"
 categories: writing architecture
 permalink: /:year:month:day-:title
 excerpt: "As tropical climate become hotter and more unpredictable, architecture must shift toward climate-responsive design. The aim is not only comfort, but resilience: reducing heat gain, lowering energy demand, managing water, and maintaining livability during more extreme and erratic weather."
+# image: /assets/images/tests.jpg
 ---
 
 As tropical climate become hotter and more unpredictable, architecture must shift toward climate-responsive design. The aim is not only comfort, but **resilience**: reducing heat gain, lowering energy demand, managing water, and maintaining livability during more extreme and erratic weather.

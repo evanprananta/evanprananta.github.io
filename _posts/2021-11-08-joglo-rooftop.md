@@ -4,6 +4,7 @@ title: "Joglo Rooftop"
 categories: architecture
 permalink: /:year:month:day-:title
 excerpt: "Tackling expensive urban housing by providing small-scale, cost-effective units - combining the affordability of large-scale projects with the flexibility of smaller-scale designs."
+image: /assets/images/2021-11-08-joglo-rooftop/construction.webp
 ---
 
 ![Axonometry Joglo Rooftop]({{ site.baseurl }}/assets/images/2021-11-08-joglo-rooftop/AXO.avif)
