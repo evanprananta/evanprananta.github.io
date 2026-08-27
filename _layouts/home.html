@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <br>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%B %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+
+        {%- if site.show_excerpts -%}
+          <p>{{ post.excerpt }}</p>
+        {%- endif -%}
+        
+        {%- if post.categories -%}
+          <!--{% for category in post.categories %}
+          <li class="post-categories" href="/categories/{{ category | slugify }}">{{ category }}</li>{% unless forloop.last %}  {% endunless %}
+          {% endfor %} -->
+          {% for category in post.categories %}
+            <span class="post-categories">{{ category }}</span>{% unless forloop.last %}<span class="post-categories">, </span> {% endunless %}
+          {% endfor %}
+        {%- endif -%}
+      </li>
+      <hr class="post-separator">
+      <br>
+      {%- endfor -%}
+    </ul>
+
+  {%- endif -%}
+
+</div>
